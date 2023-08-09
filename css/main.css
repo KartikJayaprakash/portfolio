@@ -1,0 +1,116 @@
+/* Global Styles */
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header Styles */
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .header h1 {
+    font-size: 36px;
+  }
+  
+  /* Navigation Styles */
+  .navigation {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .navigation a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 18px;
+  }
+  
+  .navigation a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Content Styles */
+  .content {
+    padding: 20px;
+  }
+  
+  /* Signature Styles */
+  .signature {
+    text-align: right;
+    padding: 20px;
+  }
+  
+  /* Photo Gallery Styles */
+  .photo-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+  
+  .photo-gallery img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Blog Post Styles */
+  .blog-post {
+    margin-bottom: 40px;
+  }
+  
+  .blog-post img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .blog-post h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .blog-post p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  /* Contact Form Styles */
+  .contact-form {
+    margin-top: 20px;
+  }
+  
+  .form-label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-input,
+  .form-textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+  }
+  
+  .form-textarea {
+    resize: vertical;
+  }
+  
+  .form-submit {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .form-submit:hover {
+    background-color: gray;
+  }
+  
